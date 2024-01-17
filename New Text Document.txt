@@ -1,0 +1,40 @@
+ What are the request methods in html?
+
+In HTML, the two main request methods used with forms are GET and POST. These methods define how data from the form is sent to the server.
+
+GET Method:
+
+The GET method is used to request data from a specified resource.
+It appends the form data to the URL as query parameters.
+It is suitable for retrieving data, and the data is visible in the URL.
+
+POST Method:
+
+The POST method is used to send data to be processed to a specified resource.
+It sends the form data in the request body, making it more secure for sensitive information.
+It is suitable for submitting forms with sensitive information or large amounts of data.
+
+
+ Find the out the difference between GET and POST methods?
+The primary differences between the GET and POST methods in HTTP are related to their purposes, how they handle data, and their use cases:
+
+Purpose:
+
+GET: Used to request data from a specified resource.
+POST: Used to submit data to be processed to a specified resource.
+Data Handling:
+
+GET: Appends data to the URL as query parameters. Data is visible in the URL.
+POST: Sends data in the request body. Data is not visible in the URL, making it more secure for sensitive information.
+Security:
+
+GET: Less secure for sensitive information because data is visible in the URL.
+POST: More secure for sensitive information as data is not exposed in the URL.
+Data Size:
+
+GET: Limited by the maximum length of a URL. Suitable for small amounts of data.
+POST: Not limited by the length of the URL. Suitable for larger amounts of data.
+Caching:
+
+GET: Can be cached by the browser. Browser history may retain sensitive data.
+POST: Typically not cached by the browser. Safer for sensitive or dynamic data.
