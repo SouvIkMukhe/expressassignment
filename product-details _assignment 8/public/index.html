@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Product Details</h1>
+    </header>
+
+    <div class="form-container">
+      <label for="productName">Product Name:</label>
+      <input type="text" id="productName" placeholder="Enter product name">
+
+      <label for="unitPrice">Unit Price:</label>
+      <input type="number" id="unitPrice" placeholder="Enter unit price">
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" placeholder="Enter quantity">
+
+      <button onclick="getTotal()">Get Total</button>
+
+      <h2>Total Amount</h2>
+      <p id="total-amount"></p>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Product Details</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
