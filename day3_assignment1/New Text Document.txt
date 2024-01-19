@@ -1,0 +1,15 @@
+how to insert a record in mongodb?
+->By using db.collection.insert()
+
+how to display the documents in mongodb?
+->First step is that >show dbs 
+   then it will show the databases 
+after that choose the databases which stores our data suppose i used the local the i will do >use local
+then i will use >show collections it will show the files thej we will use >db.the collection name(any name which we want to find).find means we are using >db.collectionname.find().pretty()
+
+
+how to update documents?
+we will use > db.collection name.updateOne/Many({age:20},{set:{age:22}}) then it will update the age from 20 to 22 
+
+how to delete documents?
+db.collectionname.deleteOne/Many({})

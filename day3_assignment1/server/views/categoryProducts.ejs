@@ -1,0 +1,22 @@
+<!-- server/views/categoryProducts.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Category Products</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+  <h1><%= category %> Products</h1>
+  <ul>
+    <% categoryProducts.forEach(product => { %>
+      <li>
+        <%= product.pname %> - $<%= product.price %> - Category: <%= product.category %>
+      </li>
+    <% }); %>
+  </ul>
+  <a href="/products" class="back-link">Back to All Products</a>
+  <a href="/">Back to Home</a>
+</body>
+</html>

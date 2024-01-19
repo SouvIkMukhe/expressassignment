@@ -1,0 +1,37 @@
+<!-- server/views/allProducts.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Products</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+  <h1>All Products</h1>
+  <ul>
+    <% products.forEach(product => { %>
+      <li>
+        <a href="/products/<%= product.pid %>">
+          <%= product.pname %> - $<%= product.price %> - Category: <%= product.category %>
+        </a>
+      </li>
+    <% }); %>
+  </ul>
+  <a href="/">Back to Home</a>
+
+  <h2>Add New Product</h2>
+  <form action="/products" method="POST">
+    <label for="newProductName">Product Name:</label>
+    <input type="text" id="newProductName" name="newProductName" required>
+
+    <label for="newProductPrice">Unit Price:</label>
+    <input type="number" id="newProductPrice" name="newProductPrice" required>
+
+    <label for="newProductCategory">Category:</label>
+    <input type="text" id="newProductCategory" name="newProductCategory" required>
+
+    <button type="submit">Add Product</button>
+  </form>
+</body>
+</html>
