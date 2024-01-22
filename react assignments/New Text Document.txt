@@ -1,0 +1,9 @@
+How to display images in react ?
+To show images in a React app, you use the <img> element, just like in regular HTML. You tell React where to find the image by providing a "source" (src) attribute with the image URL. It's like saying, "Hey React, here's the picture, display it for me!" If you have multiple images, you can use a loop to display them one by one.
+
+
+
+
+What are keys in React JS? How keys are involving  in array processing? 
+
+In simple terms, think of keys in React as a way for React to keep track of items in a list. Each item in the list should have a unique key, which helps React identify and update the items efficiently. It's like giving each item an ID so that React knows which one is which when things change.When you have a list of things (like a list of components in React), you should assign a unique "key" to each one. This key helps React quickly figure out what changed when the list is updated. It's like having name tags on people in a group photo – it makes it easier to spot who's new, who left, or who moved around.
