@@ -1,0 +1,40 @@
+/* src/components/DeptList/DeptList.css */
+.dept-list-container {
+    width: 60%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .dept-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .dept-table th,
+  .dept-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .dept-table th {
+    background-color: #4caf50;
+    color: white;
+  }
+  

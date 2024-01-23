@@ -1,0 +1,12 @@
+ What are the differnces between state and props in react js?
+
+->State is internal to a component, used for managing and updating data within the component itself.
+Props are external inputs passed from a parent component to a child component, providing a way for components to communicate.
+
+
+Study more details on state concept.
+
+
+->In simple terms, the state in React is like a memory or storage space within a component where you can keep track of and manage data that might change over time. It represents the current condition or values that are specific to that component.
+
+Imagine we have a button in our web application, and we want to keep track of how many times it has been clicked. We can use state to store and update this count. When the button is clicked, the state gets updated, and React automatically re-renders the component to reflect the new state.
