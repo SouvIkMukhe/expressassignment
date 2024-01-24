@@ -1,0 +1,32 @@
+/* src/components/TodoItem.css */
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task {
+    flex-grow: 1;
+    color: #333; /* Set the color for the task text */
+  }
+  
+  .delete-button {
+    background-color: #ff5c5c;
+    color: white;
+    border: none;
+    padding: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: #e04747;
+  }
+  

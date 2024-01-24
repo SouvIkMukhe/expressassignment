@@ -1,0 +1,16 @@
+What is Regular Expressions in JavaScript? Why de we use Regular Expressions? Find some examples of the regular expressions. 
+
+
+
+
+->Regular Expressions, often referred to as regex or regexp, are patterns used for matching character combinations in strings. In JavaScript, regular expressions are objects that describe patterns of characters. They provide a powerful and flexible way to search, match, and manipulate text.
+
+Why Use Regular Expressions in JavaScript:
+
+Pattern Matching: Regular expressions are used to match strings based on a specific pattern, allowing for more complex and flexible string matching than simple string methods.
+
+Validation: Regular expressions are commonly used for input validation, such as checking if an email address or phone number follows a specific format.
+
+Text Extraction: They are useful for extracting specific information from text, such as extracting URLs, email addresses, or numeric values.
+
+Text Manipulation: Regular expressions can be used for text manipulation tasks like replacing text, removing unnecessary characters, or formatting text.
