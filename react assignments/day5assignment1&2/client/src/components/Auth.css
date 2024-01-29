@@ -1,0 +1,15 @@
+/* client/src/Auth.css */
+.auth-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 50px;
+  }
+  
+  .success-message {
+    color: green;
+    margin-top: 10px;
+  }
+  
