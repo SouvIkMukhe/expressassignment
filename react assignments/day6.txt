@@ -1,0 +1,26 @@
+What is  React Developer Tools (Chrome extension) ?  How to use?    
+React Developer Tools is a browser extension, often used as a Chrome extension, that provides a set of tools to help developers inspect and debug React applications. It allows developers to view the component hierarchy, inspect component props and state, and monitor the flow of data in a React application. Here's a simple guide on how to use React Developer Tools:
+
+Installation:
+
+Go to the Chrome Web Store.
+Search for "React Developer Tools" and click on the extension.
+Click the "Add to Chrome" button to install the extension.
+
+
+Study more details on component life cycle	and prepare text document with your understanding.
+The React component lifecycle consists of three main phases:
+
+Mounting:
+
+constructor: Setting up initial state and bindings.
+render: Creating the component UI.
+componentDidMount: Executing tasks after the component is added to the DOM (e.g., fetching data).
+Updating:
+
+shouldComponentUpdate: Deciding whether to re-render (optional).
+render: Re-rendering the component.
+componentDidUpdate: Executing tasks after a component update (e.g., handling state or prop changes).
+Unmounting:
+
+componentWillUnmount: Cleaning up before the component is removed from the DOM 
