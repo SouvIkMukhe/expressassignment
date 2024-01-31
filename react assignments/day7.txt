@@ -1,0 +1,45 @@
+What is Unit Testing?  Why do we perform unit testing ?
+Unit testing is like checking the individual building blocks (units) of a computer program to make sure they work correctly. Imagine you're building a LEGO set, and before assembling the entire structure, you want to ensure that each LEGO piece is in good shape. Similarly, in unit testing, developers examine small parts of their code (functions, classes) to confirm they do what they're supposed to do. This helps catch mistakes early, makes it easier to find problems, and ensures that the overall program works well when all the pieces are put together.
+
+Study the complete example and understand the flow of the Redux application.
+the flow of a Redux application can be broken down into the following steps:
+
+Action:
+
+Something happens in your application (like a button click or data fetching).
+You create an action, which is a plain JavaScript object describing what happened.
+Dispatch:
+
+You send the action to the Redux store using dispatch.
+It's like notifying the store that something noteworthy occurred.
+Reducer:
+
+The store has a reducer, which is a function that decides how the state should change based on the action.
+The reducer takes the current state and the action and produces a new state.
+Store Update:
+
+The Redux store updates its state based on the new state returned by the reducer.
+The state is now changed to reflect what happened in the application.
+Component Update:
+
+Components that are connected to the store receive the updated state.
+They re-render based on the new state, displaying the latest information to the user.
+
+
+ What are the examples of unit testing libraries / frameworks? 
+Jest:
+
+Jest is a widely used JavaScript testing framework that comes with built-in support for React.
+It is developed by Facebook and is the default testing library for many React projects.
+Jest provides a simple and powerful test runner with features like snapshot testing, mocking, and parallel test execution.
+React Testing Library:
+
+This library is designed to work well with Jest and provides utilities for testing React components.
+It encourages testing components in a way that simulates user behavior, focusing on what the user sees and interacts with.
+React Testing Library is known for its simplicity and is often used in conjunction with Jest.
+
+
+
+
+
+  
